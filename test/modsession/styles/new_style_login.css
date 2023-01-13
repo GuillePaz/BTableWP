@@ -1,0 +1,39 @@
+/*body {
+
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+/*
+form p:nth-child(even):not(#reg_passmail) {
+    color: red;
+    
+    
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+ #login {    width: 500px;} 
+*/
+ @media screen and (min-width:400px) {
+    #login {
+        
+       width: 500px;
+    }
+       #registerform{
+        display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+     }
+     #loginform {
+        padding: 28px 20% 34px;
+     }
+ }
+
